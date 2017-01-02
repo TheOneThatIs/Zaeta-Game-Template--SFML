@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d6d70a70-267f-48fc-ab49-7dccdf37b326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Util">
+      <UniqueIdentifier>{f04ef4c9-0cb9-47e1-a20f-80c9cf3dd877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{5aa3cd82-431d-42b3-9025-bda166e1259f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\States">
+      <UniqueIdentifier>{0f307cf0-78d5-413e-97c8-e6560a14d4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Events">
+      <UniqueIdentifier>{1379cd7f-4ac5-48f4-b8ea-21c3f4b5e802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World">
+      <UniqueIdentifier>{92dc4d09-3c79-4d5f-9957-9f62f5ca5ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\World\Tiles">
+      <UniqueIdentifier>{f73ff4c4-ac11-48fb-9bba-eddf66ca3bac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\GameCore.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\Animation.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\File.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\MathUtilites.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Util\SpriteManager.cpp">
+      <Filter>Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Button.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\DialogBox.cpp">
+      <Filter>Source\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\Play.cpp">
+      <Filter>Source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\State.cpp">
+      <Filter>Source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\StateManager.cpp">
+      <Filter>Source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\States\TitleScreen.cpp">
+      <Filter>Source\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\Event.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Events\EventManager.cpp">
+      <Filter>Source\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\MapManager.cpp">
+      <Filter>Source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\TileManager.cpp">
+      <Filter>Source\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World\Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Util\Animation.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\File.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\MathUtilites.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\SpriteManager.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Util\Utilities.h">
+      <Filter>Source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Button.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\DialogBox.h">
+      <Filter>Source\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\Play.h">
+      <Filter>Source\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\State.h">
+      <Filter>Source\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\StateManager.h">
+      <Filter>Source\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\States\TitleScreen.h">
+      <Filter>Source\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\Event.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Events\EventManager.h">
+      <Filter>Source\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameCore.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\MapManager.h">
+      <Filter>Source\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\TileManager.h">
+      <Filter>Source\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\World\Tile.h" />
+    <ClInclude Include="Source\World\Tiles\AllTiles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+</Project>

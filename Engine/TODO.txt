@@ -1,0 +1,15 @@
+
+TODO:
+
+	* Maps
+		*** BUG ***
+			Map loader fails to load the last tile on the last row unless it is proceeded with a comma
+		- Map saving
+		- Fill holes in map with 0
+		- Tiles
+	* Player
+		- Animation
+		- Movement
+		- Actions
+	* Animation class
+		- Fix animation bug

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{48fa4305-27a9-4a9d-bf6e-a95b12d015fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{90bb351a-9f9b-49ef-b565-0e90c415e216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\States">
+      <UniqueIdentifier>{77d82328-7e53-4c04-aedf-a21ecd72c520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\States">
+      <UniqueIdentifier>{6f14a704-a590-48d8-acef-cab51280fe2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Zaeta Game Template- SFML.rc" />
+    <ResourceCompile Include="Resources\resource.rc" />
+  </ItemGroup>
+</Project>
